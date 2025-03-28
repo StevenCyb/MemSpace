@@ -2,7 +2,7 @@
 This a simple fun CLI project that provides a tool to get the memory usage of file and directories as a tree.
 
 ```bash
-$ memspace -r -m
+$ MemSpace -r -m
 Size:      926.35GB
 Free:      208.63GB - 22.52%
 Available: 208.63GB - 22.52%
