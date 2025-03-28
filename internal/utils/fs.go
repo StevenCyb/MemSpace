@@ -2,10 +2,11 @@ package utils
 
 import (
 	"fmt"
-	"memspace/internal/models"
-	"memspace/internal/unit"
 	"os"
 	"path/filepath"
+
+	"github.com/stevencyb/memspace/internal/models"
+	"github.com/stevencyb/memspace/internal/unit"
 )
 
 var ErrRecursionEnd = fmt.Errorf("recursion end")

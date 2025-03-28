@@ -1,8 +1,9 @@
 package cli
 
 import (
-	"memspace/internal/unit"
 	"testing"
+
+	"github.com/stevencyb/memspace/internal/unit"
 
 	"github.com/stretchr/testify/assert"
 )

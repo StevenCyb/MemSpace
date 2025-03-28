@@ -2,8 +2,9 @@ package print
 
 import (
 	"fmt"
-	"memspace/internal/unit"
 	"syscall"
+
+	"github.com/stevencyb/memspace/internal/unit"
 
 	"github.com/fatih/color"
 )

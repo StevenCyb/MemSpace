@@ -2,8 +2,9 @@ package cli
 
 import (
 	"fmt"
-	"memspace/internal/unit"
 	"os"
+
+	"github.com/stevencyb/memspace/internal/unit"
 
 	"github.com/jessevdk/go-flags"
 )

@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"memspace/internal/cli"
-	"memspace/internal/models"
-	"memspace/internal/print"
-	"memspace/internal/utils"
 	"os"
+
+	"github.com/stevencyb/memspace/internal/cli"
+	"github.com/stevencyb/memspace/internal/models"
+	"github.com/stevencyb/memspace/internal/print"
+	"github.com/stevencyb/memspace/internal/utils"
 
 	"github.com/fatih/color"
 	"github.com/jessevdk/go-flags"

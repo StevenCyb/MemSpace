@@ -1,4 +1,4 @@
-module memspace
+module github.com/stevencyb/memspace
 
 go 1.23.2
 

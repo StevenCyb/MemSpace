@@ -2,9 +2,10 @@ package print
 
 import (
 	"fmt"
-	"memspace/internal/models"
-	"memspace/internal/unit"
 	"strings"
+
+	"github.com/stevencyb/memspace/internal/models"
+	"github.com/stevencyb/memspace/internal/unit"
 
 	"github.com/fatih/color"
 )
