@@ -30,6 +30,11 @@ Used:      717.72GB - 77.48%
 └-📄main.go [876.00B]
 ```
 
+## Installation
+```bash
+go install github.com/StevenCyb/MemSpace@latest
+```
+
 ## Usage
 ```bash
 Usage:

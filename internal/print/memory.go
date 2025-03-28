@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/stevencyb/memspace/internal/unit"
+	"github.com/StevenCyb/MemSpace/internal/unit"
 
 	"github.com/fatih/color"
 )

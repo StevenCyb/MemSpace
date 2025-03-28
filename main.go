@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/stevencyb/memspace/internal/cli"
-	"github.com/stevencyb/memspace/internal/models"
-	"github.com/stevencyb/memspace/internal/print"
-	"github.com/stevencyb/memspace/internal/utils"
+	"github.com/StevenCyb/MemSpace/internal/cli"
+	"github.com/StevenCyb/MemSpace/internal/models"
+	"github.com/StevenCyb/MemSpace/internal/print"
+	"github.com/StevenCyb/MemSpace/internal/utils"
 
 	"github.com/fatih/color"
 	"github.com/jessevdk/go-flags"

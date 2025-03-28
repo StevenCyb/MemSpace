@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stevencyb/memspace/internal/models"
-	"github.com/stevencyb/memspace/internal/unit"
+	"github.com/StevenCyb/MemSpace/internal/models"
+	"github.com/StevenCyb/MemSpace/internal/unit"
 
 	"github.com/stretchr/testify/assert"
 )

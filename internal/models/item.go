@@ -1,6 +1,6 @@
 package models
 
-import "github.com/stevencyb/memspace/internal/unit"
+import "github.com/StevenCyb/MemSpace/internal/unit"
 
 // ItemType represents a custom type used to define different categories or types of items.
 // It is implemented as a byte to minimize memory usage and improve performance.
