@@ -46,7 +46,7 @@ Application Options:
   -r, --recursive  Show files (and directories) Recursively
   -e, --depth=     The depth of recursion (default: -1)
   -t, --threshold= Show only files or directories larger than the threshold
-  -m, --memory     Show driver memory
+  -m, --memory     Show drive memory
 
 Help Options:
   -h, --help       Show this help message

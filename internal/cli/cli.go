@@ -17,7 +17,7 @@ import (
 // - Recursive: A flag indicating whether to process directories recursively.
 // - Depth: An optional pointer to an integer specifying the maximum depth for recursion.
 // - Threshold: An optional pointer to a unit.Size value specifying a size threshold for filtering.
-// - Memory: A flag indicating whether to show driver memory.
+// - Memory: A flag indicating whether to Show drive memory.
 type Arguments struct {
 	BasePath      string
 	DirectoryOnly bool
@@ -60,7 +60,7 @@ func New(args []string) (*Arguments, error) {
 		Recursive bool   `short:"r" long:"recursive" description:"Show files (and directories) Recursively"`
 		Depth     int    `short:"e" long:"depth" default:"-1" description:"The depth of recursion"`
 		Threshold string `short:"t" long:"threshold" default:"" description:"Show only files or directories larger than the threshold"`
-		Memory    bool   `short:"m" long:"memory" description:"Show driver memory"`
+		Memory    bool   `short:"m" long:"memory" description:"Show drive memory"`
 	}
 
 	parser := flags.NewParser(&opts, flags.Default)
