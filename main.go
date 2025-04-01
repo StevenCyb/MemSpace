@@ -31,6 +31,7 @@ func main() {
 	root.Root = true
 	if _, err := utils.WalkAndCollect(root, arguments.BasePath, 0); err != nil {
 		fmt.Fprintf(os.Stderr, color.RedString("error walking the path: %s\n"), err)
+		return
 	}
 
 	print.Tree(root, arguments.Recursive, arguments.DirectoryOnly, arguments.Depth, arguments.Threshold, 0)

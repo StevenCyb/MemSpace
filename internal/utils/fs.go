@@ -95,6 +95,9 @@ func WalkAndCollect(parent *models.Item, path string, currentDepth int) (*unit.S
 		} else {
 			size, err := FileSize(filepath.Join(path, entry.Name()))
 			if err != nil {
+				if os.IsNotExist(err) {
+					continue
+				}
 				return nil, err
 			}
 
